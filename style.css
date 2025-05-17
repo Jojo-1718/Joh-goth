@@ -1,0 +1,165 @@
+body {
+    background-color: #1e1d1d;  
+    color: #eeeeee;            
+    padding: 30px 20px;         
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    user-select: none;
+  }
+  
+  .btn:hover {
+    background-color: #b51e00;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;             
+    padding: 20px;
+    background-color: #222831;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00000099;
+}
+
+.photo-moto {
+    width: 200px; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.photo-moto2 {
+    width: 200px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 0 8px #222831;
+}
+
+.photo-moto3 {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.photo-moto4 {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #eeeeee;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+nav {
+    background-color: #393e46;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+nav ol {
+    list-style: decimal inside;
+    margin: 0;
+    padding-left: 0;
+}
+
+nav ol li {
+    margin: 8px 0;
+    font-size: 1.1em;
+}
+
+nav ol li a {
+    color: #00adb5;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ol li a:hover {
+    color: #7db0de;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: disc inside;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 6px 0;
+    font-size: 1.1em;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+em {
+    font-style: italic;
+    color: #00adb5;
+}
+
+strong {
+    color: #5bdee3;
+    font-weight: bold;
+}
+
+a {
+    color: #66ccff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a[href="page2.html"] {
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #00adb5;
+}
+
+a[href="page2.html"]:hover {
+    color: #ffa500;
+}
+
