@@ -1,10 +1,43 @@
 body {
-    background-color: #1e1d1d;  
+    background-color: #1e1e1e;  
     color: #eeeeee;            
-    padding: 30px 20px;         
+    padding: 0px 20px;         
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+  
+header {
+    background-color: #111;
+    padding: 20px 30px;
+    text-align: center;
+    border-bottom: 3px solid #e60000;
+    border-radius: 10px;
+    border-color: #720000;  
+    margin-bottom: 20px; 
+}
+  
+  header h1 {
+    color: white;
+    margin: 0;
+  }
+  
+header nav {
+    margin-top: 10px;
+  }
+  
+  header nav a {
+    display: inline-block;
+    color: #e60000;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
 .btn {
     display: inline-block;
     background-color: #000000;
@@ -32,7 +65,7 @@ body {
   
 
 .container {
-    max-width: 800px;
+    max-width: 1500px;
     margin: 0 auto;             
     padding: 20px;
     background-color: #222831;
@@ -41,7 +74,7 @@ body {
 }
 
 .photo-moto {
-    width: 300px; 
+    width: 200px; 
     height: auto; 
     border-radius: 8px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
@@ -162,4 +195,17 @@ a[href="page2.html"] {
 a[href="page2.html"]:hover {
     color: #ffa500;
 }
+
+  
+  /* Footer */
+  footer {
+    background-color: #111;
+    color: #999;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 2px solid #e60000;
+    border-radius: 10px;
+  }
+  
 
