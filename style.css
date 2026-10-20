@@ -218,3 +218,8 @@ body.clair strong { color: #005f66; }
 body.clair a { color: #0066aa; }
 body.clair .btn { color: #fff; }
 body.clair footer { background-color: #e6dac6; color: #111; }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
