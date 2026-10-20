@@ -28,14 +28,8 @@ if (prix <=10) {
     console.log("cher");
 }
 
+let boutonMode = document.getElementById("mode");
 
-let bouton = document.getElementById("bouton");
-let message = document.getElementById("message");
-
-bouton.addEventListener("click", function () {
-if (message.textContent === "Clique ici pour contact whatsapp") {
-    message.textContent = "0342262901";
-}else {
-    message.textContent = "Clique ici pour contact whatsapp";
-}
+boutonMode.addEventListener("click", function () {
+  document.body.classList.toggle("clair");
 });

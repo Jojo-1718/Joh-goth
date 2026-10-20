@@ -206,7 +206,15 @@ a[href="page2.html"]:hover {
     border-top: 2px solid #e60000;
     border-radius: 10px;
   }
-  
-
-
-
+body.clair {  background-color: #efe6d8; color: #2b2b2b;  }
+body.clair .container { background-color: #f8f3ea; box-shadow: 0 0 15px #00000033; }
+body.clair h1, body.clair h2, body.clair h3 { color: #222; }
+body.clair header { background-color: #f8f3ea; }
+body.clair header h1 { color: #111; }
+body.clair header nav a { color: #e60000; }
+body.clair nav { ackground-color: #e6dac6; }
+body.clair nav ol li a, body.clair em { color: #007c85; }
+body.clair strong { color: #005f66; }
+body.clair a { color: #0066aa; }
+body.clair .btn { color: #fff; }
+body.clair footer { background-color: #e6dac6; color: #111; }
